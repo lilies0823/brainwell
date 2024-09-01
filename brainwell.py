@@ -41,6 +41,8 @@ def bw(bwstr):
                 loop.append(i-1)
         elif bwstr[i] == ']':
             i = loop.pop()
+        elif bwstr[i] == '&':
+            paperline[p] == p
         i+=1
         
 
